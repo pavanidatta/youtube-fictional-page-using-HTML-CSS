@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YouTube.Com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+    <body>
+        <div class="header">
+            <div class="left-section">
+                <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+                <img class="youtube-logo" src="icons/youtube-logo.svg">
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="icons/search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice-search-button">
+                   <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                   <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+            <div class="right-section">
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="icons/upload.svg">
+                    <div class="tooltip">Create</div>
+                </div>
+                <div class="youtube-container">
+                    <img class="youtube-app-icon" src="icons/youtube-apps.svg">
+                    <div class="tooltip">YouTube apps</div>
+                </div>
+                <div class="notifications-icon-container">
+                    <img class="notification-icon" src="icons/notifications.svg">
+                    <div class="notification-count">3</div>
+                    <div class="tooltip">Notifications</div>
+                </div>
+                <img class="current-user-picture" src="icons/profilephoto.jpg">
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="sidebar-link">
+                <img src="icons/home.svg">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/explore.svg">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/subscriptions.svg">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/originals.svg">
+                <div>Orginals</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/youtube-music.svg">
+                <div>YouTube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/library.svg">
+                <div>Library</div>
+            </div>
+        </div>
+
+        <main>
+            <section class="vedio-grid">
+                <div class="vedio-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/thumbnail1.webp">
+                        <div class="vedio-time">28:25</div>
+                    </div>
+                    <div class="vedio-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channels-pics/channels1.jpg">
+                        </div>
+                        <div class="vedio-info">
+                            <p class="vedio-title">World’s Deadliest Obstacle Course!</p>
+                            <p class="vedio-author">MrBeast</p>
+                            <p class="vedio-stats">163M views &#183; 3 weeks ago</p>
+                        </div>               
+                    </div>
+                </div>
+
+                <div class="vedio-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/thumbnail2.webp">
+                        <div class="vedio-time">01:02</div>
+                    </div>
+                    <div class="vedio-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channels-pics/channels2.jpg">
+                        </div>
+                        <div class="vedio-info">
+                            <p class="vedio-title">BTS (방탄소년단) Character Trailer - The cutest boy band in the world</p>
+                            <p class="vedio-author">BANGTANTV</p>
+                            <p class="vedio-stats">83M views &#183; 4 years ago</p>
+                        </div>               
+                    </div>
+                </div>
+                
+                <div class="vedio-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/thumbnail3.webp">
+                        <div class="vedio-time">18:41</div>
+                    </div>
+                    <div class="vedio-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channels-pics/channels3.jpg">
+                        </div>
+                        <div class="vedio-info">
+                            <p class="vedio-title">What really matters at the end of life | BJ Miller | TED</p>
+                            <p class="vedio-author">TED</p>
+                            <p class="vedio-stats">12M views &#183; 8 years ago</p>
+                        </div>               
+                    </div>
+                </div>
+
+                <div class="vedio-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/thumbnail4.webp">
+                        <div class="vedio-time">40:22</div>
+                    </div>
+                    <div class="vedio-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channels-pics/channels4.jpg">
+                        </div>
+                        <div class="vedio-info">
+                            <p class="vedio-title">Driving Tesla Cybertruck: Everything You Need to Know!</p>
+                            <p class="vedio-author">Marques Brownlee</p>
+                            <p class="vedio-stats">21M views &#183; 7 months ago</p>
+                        </div>               
+                    </div>
+                </div>
+        
+                <div class="vedio-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/thumbnail5.webp">
+                        <div class="vedio-time">18:52</div>
+                    </div>
+                    <div class="vedio-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channels-pics/channels5.jpg">
+                        </div>
+                        <div class="vedio-info">
+                            <p class="vedio-title">The Most Perfect Country on the Planet | Switzerland</p>
+                            <p class="vedio-author">Brett Conti</p>
+                            <p class="vedio-stats">5.7M views &#183; 2 years ago</p>
+                        </div>               
+                    </div>
+                </div>
+        
+                
+        
+                <div class="vedio-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/thumbnail6.webp">
+                        <div class="vedio-time">12:09</div>
+                    </div>
+                    <div class="vedio-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channels-pics/channels6.jpg">
+                        </div>
+                        <div class="vedio-info">
+                            <p class="vedio-title">The 9 AI Skills You Need NOW to Stay Ahead of 97% of People</p>
+                            <p class="vedio-author">AI Uncoverd</p>
+                            <p class="vedio-stats">803k views &#183; 1 year ago</p>
+                        </div>               
+                    </div>
+                </div>
+
+                <div class="vedio-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/thumbnail7.webp">
+                        <div class="vedio-time">57:14</div>
+                    </div>
+                    <div class="vedio-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channels-pics/channels7.jpg">
+                        </div>
+                        <div class="vedio-info">
+                            <p class="vedio-title">Discover the 33 Greatest Natural Wonders of the Planet Earth.</p>
+                            <p class="vedio-author">Sonic Punk</p>
+                            <p class="vedio-stats">3.4M views &#183; 1 year ago</p>
+                        </div>               
+                    </div>
+                </div>
+
+                <div class="vedio-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/thumbnail8.webp">
+                        <div class="vedio-time">15:04</div>
+                    </div>
+                    <div class="vedio-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channels-pics/channels8.jpg">
+                        </div>
+                        <div class="vedio-info">
+                            <p class="vedio-title">40 Incredible Moments Caught on CCTV Camera</p>
+                            <p class="vedio-author">Mind Warehouse</p>
+                            <p class="vedio-stats">8.1M views &#183; 2 years ago</p>
+                        </div>               
+                    </div>
+                </div>
+
+                <div class="vedio-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/thumbnail9.webp">
+                        <div class="vedio-time">26:02</div>
+                    </div>
+                    <div class="vedio-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channels-pics/channels9.jpg">
+                        </div>
+                        <div class="vedio-info">
+                            <p class="vedio-title">I studied 100+ faceless channels to CRACK the Algorithm</p>
+                            <p class="vedio-author">InVideo For Content Creators</p>
+                            <p class="vedio-stats">107k views &#183; 3 months ago</p>
+                        </div>               
+                    </div>
+                </div>
+
+                <div class="vedio-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/thumbnail10.webp">
+                        <div class="vedio-time">03:12</div>
+                    </div>
+                    <div class="vedio-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channels-pics/channels10.jpg">
+                        </div>
+                        <div class="vedio-info">
+                            <p class="vedio-title">The influencer making gardening cool and trendy | BBC News India</p>
+                            <p class="vedio-author">BBC News India</p>
+                            <p class="vedio-stats">88k views &#183; 1 year ago</p>
+                        </div>               
+                    </div>
+                </div>
+
+                <div class="vedio-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/thumbnail11.webp">
+                        <div class="vedio-time">25:04</div>
+                    </div>
+                    <div class="vedio-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channels-pics/channels11.jpg">
+                        </div>
+                        <div class="vedio-info">
+                            <p class="vedio-title">Monsoon Special | Grilled Chicken Recipes | A rainy day at village home | Village Lifestyle.</p>
+                            <p class="vedio-author">Life in Wetland</p>
+                            <p class="vedio-stats">6.5M views &#183; 1 year ago</p>
+                        </div>               
+                    </div>
+                </div>
+
+                <div class="vedio-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/thumbnail12.webp">
+                        <div class="vedio-time">25:04</div>
+                    </div>
+                    <div class="vedio-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channels-pics/channels12.jpg">
+                        </div>
+                        <div class="vedio-info">
+                            <p class="vedio-title">Egypt's Ancient Empire | Egypt From Above (Full Episode) The Nile River</p>
+                            <p class="vedio-author">National Geographic</p>
+                            <p class="vedio-stats">909k views &#183; 1 month ago</p>
+                        </div>               
+                    </div>
+                </div>
+
+            </section>
+        </main>       
+    </body>
+</html>
